@@ -34,7 +34,7 @@ curl https://bootstrap.pypa.io/get-pip.py | python2.7 -
 ## install python libraries
 pip install flask pafy youtube-dl requests py_lru_cache Flask-APScheduler supervisor
 
-cd /root/youtube-stream
+cd /root/youtube-proxy-stream
 echo "{}">cache.json
 mkdir -p ${server_home}
 cp -R * ${server_home}
