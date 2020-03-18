@@ -40,6 +40,7 @@ mkdir -p /etc/caddy
 mkdir -p /var/log/caddy
 mkdir -p /var/www/video
 mkdir -p /var/www/video/cache
+cp -R /root/youtube-proxy-stream/sites/* /var/www/video
 cat <<EOF >/etc/caddy/Caddyfile
 :80 {
      root /var/www/
